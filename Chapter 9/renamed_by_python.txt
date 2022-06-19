@@ -1,0 +1,9 @@
+....rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:52 TRACE  :........flow_timer_stop: Stop T4
+03/22 08:53:52 TRACE  :........flow_timer_start: Start T4
+03/22 08:53:52 TRACE  :.......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:53:53 EVENT  :..mailslot_sitter: process received signal SIGALRM
+03/22 08:53:53 TRACE  :.....event_timerT1_expire: T1 expired
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 TRACE  :......router_forward_getOI:         source address:   9.67.116.98
+03/22 08:53:53 TRACE  :......router_forward_getOI:         out inf:   9.67.1
